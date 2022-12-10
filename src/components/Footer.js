@@ -4,7 +4,7 @@ import React from 'react';
 import { social } from '../data';
 
 // import logo
-import Logo from '../assets/img/logo.svg';
+// import Logo from '../assets/img/logo.svg';
 
 const Footer = () => {
   return (
@@ -21,11 +21,12 @@ const Footer = () => {
               );
             })}
           </div>
-          <div>
+          <h1>Saklain Mostak</h1>
+          {/* <div>
             <img src={Logo} alt='' />
-          </div>
+          </div> */}
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Cristian Mihai. All rights reserved.
+            &copy; 2022 All rights reserved.
           </p>
         </div>
       </div>
