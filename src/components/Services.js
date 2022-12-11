@@ -11,10 +11,6 @@ const Services = () => {
           <h2 className='section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block'>
             What I do for clients
           </h2>
-          <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
-          </p>
         </div>
         <div className='grid lg:grid-cols-4 gap-8'>
           {services.map((service, index) => {

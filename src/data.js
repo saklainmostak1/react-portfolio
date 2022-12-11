@@ -10,6 +10,8 @@ import {
   FiMail,
   FiMapPin,
   FiPhone,
+  FiFacebook,
+  FiLinkedin,
 } from 'react-icons/fi';
 
 // companies icons
@@ -24,8 +26,8 @@ import Project1 from './assets/img/projects/Laptop.png';
 import Project2 from './assets/img/projects/food.png';
 import Project3 from './assets/img/projects/learn.png';
 import Project4 from './assets/img/projects/doctor.png';
-import Project5 from './assets/img/projects/car.png';
-import Project6 from './assets/img/projects/quiz.png';
+import Project5 from './assets/img/projects/quiz.png';
+import Project6 from './assets/img/projects/education.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -67,6 +69,10 @@ export const navigation = [
   {
     name: 'contact',
     href: 'contact',
+  },
+  {
+    name: 'projectsDetails',
+    href: 'projects',
   },
 ];
 
@@ -119,37 +125,40 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
+    name: 'Laptop Bazzar',
     category: 'UI/UX design',
+    description: 'Key Features:',
+    details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access'
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'Home Made Food',
     category: 'web development',
+    liveLink: 'https://home-food-21f59.web.app/'
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
+    name: 'Learn Buzzer',
     category: 'UI/UX design',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Doctors Portal',
+    category: 'other',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    name: 'Mega quiz',
     category: 'web development',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
+    name: 'Education Buddies',
     category: 'web development',
   },
 ];
@@ -166,7 +175,7 @@ export const projectsNav = [
     name: 'web development',
   },
   {
-    name: 'branding',
+    name: 'other',
   },
 ];
 
@@ -265,5 +274,17 @@ export const contact = [
     title: 'Contact',
     subtitle: '+8801774412135',
     description: 'If You Need Please Contact With Me',
+  },
+  {
+    icon: <FiFacebook />,
+    title: 'Facebook',
+    subtitle: 'https://www.facebook.com/profile.php?id=100088145321928',
+    description: 'If You Need You Can Send Me Message In Facebook',
+  },
+  {
+    icon: <FiLinkedin />,
+    title: 'Linkedin',
+    subtitle: 'https://www.linkedin.com/in/saklain-mostak-a99288248/',
+    description: 'If You Need You Can Send Me Message In Linkedin',
   },
 ];

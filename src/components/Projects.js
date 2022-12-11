@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
-
 // import data
 import { projectsData } from '../data';
 import { projectsNav } from '../data';
-
 // import components
 import Project from './Project';
+import ProjectsDetailsModal from './ProjectsDetailsModal';
+
+
 
 const Projects = () => {
   const [item, setItem] = useState({ name: 'all' });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
+  const [project, setProject] = useState({})
 
   useEffect(() => {
     // get projects based on item
@@ -54,9 +56,13 @@ const Projects = () => {
       {/* projects */}
       <section className='grid gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8'>
         {projects.map((item) => {
-          return <Project item={item} key={item.id} />;
+          console.log(item)
+          return <Project item={item} key={item.id} setProject={setProject} />;
         })}
       </section>
+      <ProjectsDetailsModal
+        project={project}
+      ></ProjectsDetailsModal>
     </div>
   );
 };
