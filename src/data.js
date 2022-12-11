@@ -7,9 +7,9 @@ import {
   FiLayout,
   FiSettings,
   FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
+  FiPhone,
 } from 'react-icons/fi';
 
 // companies icons
@@ -20,12 +20,12 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/Laptop.png';
+import Project2 from './assets/img/projects/food.png';
+import Project3 from './assets/img/projects/learn.png';
+import Project4 from './assets/img/projects/doctor.png';
+import Project5 from './assets/img/projects/car.png';
+import Project6 from './assets/img/projects/quiz.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -38,9 +38,9 @@ import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import TestiImage1 from './assets/img/testimonials/-development-and-design.jpg';
+import TestiImage2 from './assets/img/testimonials/web-designer.jpg';
+import TestiImage3 from './assets/img/testimonials/web-developer.jpg';
 
 // navigation
 export const navigation = [
@@ -202,28 +202,23 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Figma, Sketch, Photoshop.',
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: 'Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Html, Css, JavaScript, React, Nodejs, Express.',
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'UI/UX',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'UX design is all about identifying and solving user problems; UI design is all about creating intuitive, aesthetically-pleasing.',
   },
-  {
-    icon: <FiTag />,
-    name: 'SEO',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
+ 
 ];
 
 // testimonials
@@ -232,22 +227,22 @@ export const testimonials = [
     authorImg: TestiImage1,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    // authorName: 'Olivia Doe',
+    // authorPosition: 'Head of Design, Google',
   },
   {
     authorImg: TestiImage2,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    // authorName: 'Olivia Doe',
+    // authorPosition: 'Head of Design, Google',
   },
   {
     authorImg: TestiImage3,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    // authorName: 'Olivia Doe',
+    // authorPosition: 'Head of Design, Google',
   },
 ];
 
@@ -264,5 +259,11 @@ export const contact = [
     title: 'Current Location',
     subtitle: 'Dhanmondi 32, Dhaka, Bangladesh',
     description: '',
+  },
+  {
+    icon: <FiPhone />,
+    title: 'Contact',
+    subtitle: '+8801774412135',
+    description: 'If You Need Please Contact With Me',
   },
 ];
