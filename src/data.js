@@ -77,10 +77,7 @@ export const navigation = [
     name: 'contact',
     href: 'contact',
   },
-  {
-    name: 'projectsDetails',
-    href: 'projects',
-  },
+ 
 ];
 
 // social
@@ -134,7 +131,7 @@ export const projectsData = [
     images: proImage1,
     image: Project1,
     name: 'Laptop Bazzar',
-    category: 'UI/UX design',
+    category: 'web Design',
     description: 'Key Features:',
     details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access',
     Technologies:' JavaScript, React Js, Daisy UI, Tailwind CSS, HTML, CSS, Mongodb, Node Js, Express Js.',
@@ -160,7 +157,7 @@ export const projectsData = [
     images: proImage3,
     image: Project3,
     name: 'Learn Buzzer',
-    category: 'UI/UX design',
+    category: 'web Design',
     description: 'Key Features:',
     details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access',
     Technologies:' JavaScript, React Js, Daisy UI, Tailwind CSS, HTML, CSS, Mongodb, Node Js, Express Js.',
@@ -215,7 +212,7 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'web Design',
   },
   {
     name: 'web development',
