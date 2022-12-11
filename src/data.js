@@ -28,6 +28,13 @@ import Project3 from './assets/img/projects/learn.png';
 import Project4 from './assets/img/projects/doctor.png';
 import Project5 from './assets/img/projects/quiz.png';
 import Project6 from './assets/img/projects/education.png';
+//project multiImage
+import proImage1 from './assets/img/projects/image (1).png'
+import proImage2 from './assets/img/projects/image 2.png'
+import proImage3 from './assets/img/projects/image 3.png'
+import proImage4 from './assets/img/projects/image 4.png'
+import proImage5 from './assets/img/projects/image 5.png'
+import proImage6 from './assets/img/projects/image 6.png'
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -124,42 +131,81 @@ export const brands = [
 export const projectsData = [
   {
     id: '1',
+    images: proImage1,
     image: Project1,
     name: 'Laptop Bazzar',
     category: 'UI/UX design',
     description: 'Key Features:',
-    details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access'
+    details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access',
+    Technologies:' JavaScript, React Js, Daisy UI, Tailwind CSS, HTML, CSS, Mongodb, Node Js, Express Js.',
+    githubClient:'https://github.com/saklainmostak1/laptop-bazzar-client',
+    githubServer:'https://github.com/saklainmostak1/laptop-bazzar-server',
+    liveLink:'https://use-laptop-buzzer.web.app/'
   },
   {
     id: '2',
+    images: proImage2,
     image: Project2,
     name: 'Home Made Food',
     category: 'web development',
+    description: 'Key Features:',
+    details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access',
+    Technologies:' JavaScript, React Js, Daisy UI, Tailwind CSS, HTML, CSS, Mongodb, Node Js, Express Js.',
+    githubClient:'https://github.com/saklainmostak1/home-made-food-client',
+    githubServer:'https://github.com/saklainmostak1/Home-made-food-server',
     liveLink: 'https://home-food-21f59.web.app/'
   },
   {
     id: '3',
+    images: proImage3,
     image: Project3,
     name: 'Learn Buzzer',
     category: 'UI/UX design',
+    description: 'Key Features:',
+    details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access',
+    Technologies:' JavaScript, React Js, Daisy UI, Tailwind CSS, HTML, CSS, Mongodb, Node Js, Express Js.',
+    githubClient:'https://github.com/saklainmostak1/learn-buzzer-client',
+    githubServer:'https://github.com/saklainmostak1/learn-buzzer-server',
+    liveLink:'https://learn-buzzer-client-93c32.web.app/'
   },
   {
     id: '4',
+    images: proImage4,
     image: Project4,
     name: 'Doctors Portal',
-    category: 'other',
+    description: 'Key Features:',
+    details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access',
+    category: 'special',
+    Technologies:' JavaScript, React Js, Daisy UI, Tailwind CSS, HTML, CSS, Mongodb, Node Js, Express Js.',
+    githubClient:'https://github.com/saklainmostak1/doctor-full-project-client',
+    githubServer:'https://github.com/saklainmostak1/doctor-full-project-server',
+    liveLink:'https://doctors-prtal-7f405.firebaseapp.com/'
   },
   {
     id: '5',
+    images: proImage5,
     image: Project5,
     name: 'Mega quiz',
     category: 'web development',
+    description: 'Key Features:',
+    details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access',
+    Technologies:' JavaScript, React Js, Bootstrap, HTML, CSS',
+    githubClient:'https://github.com/saklainmostak1/Mega-quiz',
+    githubServer:'',
+    liveLink: 'https://serene-granita-20a2fc.netlify.app/'
   },
   {
     id: '6',
+    images: proImage6,
     image: Project6,
     name: 'Education Buddies',
     category: 'web development',
+    description: 'Key Features:',
+    details: 'Different types of old laptop. You can buy and sell laptops. Private Routes After login you can get premium access',
+    Technologies:'Bootstrap, HTML, CSS',
+    githubClient:'https://github.com/saklainmostak1/assignment-3',
+    githubServer:'',
+    liveLink: 'https://saklainmostak1.github.io/assignment-3/'
   },
 ];
 
@@ -175,7 +221,7 @@ export const projectsNav = [
     name: 'web development',
   },
   {
-    name: 'other',
+    name: 'special',
   },
 ];
 
