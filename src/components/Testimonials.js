@@ -16,7 +16,7 @@ const Testimonials = () => {
         </div>
         {/* <TestiSlider /> */}
       </div>
-    </section>
+     </section> 
   );
 };
 

@@ -63,7 +63,7 @@ export const navigation = [
     href: 'about',
   },
   {
-    name: 'portfolio',
+    name: 'projects',
     href: 'portfolio',
   },
   {
