@@ -12,6 +12,7 @@ import {
   FiPhone,
   FiFacebook,
   FiLinkedin,
+  FiCheckCircle,
 } from 'react-icons/fi';
 
 // companies icons
@@ -263,13 +264,20 @@ export const services = [
     icon: <FiSettings />,
     name: 'Development',
     description:
-      'Html, Css, JavaScript, React, Nodejs, Express.',
+      'HTML, CSS , JavaScript, React Js, Bootstrap, Tailwind CSS, Daisy UI',
   },
   {
     icon: <FiPenTool />,
     name: 'UI/UX',
     description:
       'UX design is all about identifying and solving user problems; UI design is all about creating intuitive, aesthetically-pleasing.',
+  },
+  {
+    icon: <FiCheckCircle />,
+    name: 'Comfortable/Tools',
+    description:
+      ' Tools: VS Code, GitHub, Chrome Dev Tools, Vercel.',
+      details: 'Comfortable: NodeJS, MongoDB, Express Js, Firebase',
   },
  
 ];
